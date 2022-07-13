@@ -9,6 +9,8 @@ class Account :
     mail     = str
     password = str
     
+    """ Constructor """
     def __init__(self, name, document):
         self.name      = name
         self.document  = document
+        
